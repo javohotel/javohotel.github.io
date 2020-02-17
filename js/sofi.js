@@ -10,7 +10,7 @@ var app = new Vue({
 	    return response.json();
 	  })
 	  .then(function(myJson) {
-	    console.log(myJson);
+	    this.episodes = myJson;
 	  });
   }
 })

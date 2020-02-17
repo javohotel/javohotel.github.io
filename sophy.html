@@ -47,7 +47,9 @@
 	</header>
 
 	<div id="app">
-	  {{ message }}
+	  <div v-for="epi in episodes">
+	  	<h4>{{epi.title}}</h4>
+	  </div>
 	</div>
 
 
