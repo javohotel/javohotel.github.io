@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'simpsons';
+  src: url(Simpsonfont.ttf);
+}
+.x {
+	position: absolute;
+}
+
+.x.x1 {
+	top: 50%;
+}
+
+.x.x2 {
+	top: 20%;
+}
+
+.x.x3 {
+	top: 15%;
+}
+
+.x.x4 {
+	top: 30%;
+}
+
+.x.x5 {
+	top: 60%;
+}
+
+header {
+	text-align: center;
+	color: white;
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1 {
+	color: white;
+    font-size: 26px;
+    text-align: center;    
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+header p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.simpsonsFont {
+	font-family: 'simpsons';
+}
