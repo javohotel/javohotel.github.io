@@ -92,3 +92,13 @@ a {
 	color: #fcea36;
 	text-decoration: none;
 }
+
+
+@media screen and (max-width: 767px) {
+	article {
+		flex-direction: column;
+	}
+	article .info {
+		width: 100%;
+	}
+}

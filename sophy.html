@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    <title>Javier's top rated The Simpsons episodies</title>
    <link rel="stylesheet" href="css/sofi.css">
 <link rel="stylesheet" href="css/nubes.css">
@@ -55,7 +55,7 @@
 	  		<img :src="epi.img" style="max-width: 140px;" alt="">
 	  	</div>
 	  	<div class="info">
-	  		<h4 class="simpsonsFont"><a :href="epi.link">{{epi.title}}</a></h4>
+	  		<h4 class="simpsonsFont"><a :href="epi.link" target="_blank">{{epi.title}}</a></h4>
 	  		<p><small>IMDb Rate: {{epi.rate}}</small></p>
 			<p>{{epi.description}}</p>
 			<div :id="epi.ratingname"></div>
