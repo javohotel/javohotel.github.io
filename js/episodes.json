@@ -1,14 +1,62 @@
-[
-	{
-		"title":"episodio 1",
-		"link":"link",
-		"Description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consequuntur obcaecati corporis, nulla perspiciatis libero quod at sunt voluptatibus deleniti quam veniam, omnis officiis dolorem blanditiis sint, impedit maiores est.",
-		"comentario":"comentario"
-	},
-	{
-		"title":"episodio 2",
-		"link":"link",
-		"Description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consequuntur obcaecati corporis, nulla perspiciatis libero quod at sunt voluptatibus deleniti quam veniam, omnis officiis dolorem blanditiis sint, impedit maiores est.",
-		"comentario":"comentario"
-	}
+[ 
+   { 
+      "title":"Krusty Gets Busted (1990)",
+      "rate":"8,4",
+      "description":"Homer witnesses a robbery at the Kwik-E-Mart, where the culprit is a man dressed like Bart's hero, Krusty the Clown. But there's more than meets the eye?"
+   },
+   { 
+      "title":"One Fish, Two Fish, Blowfish, Blue Fish (1991)",
+      "rate":"8,8",
+      "description":"After apparently consuming poison blowfish, Homer is told that he only has 24 hours to live."
+   },
+   { 
+      "title":"Flaming Moe's (1991)",
+      "rate":"8,8",
+      "description":"Moe claims a drink that Homer invented is his own, with the drink making the bar a local hot spot, but threatens his friendship with Homer."
+   },
+   { 
+      "title":"Last Exit to Springfield (1993)",
+      "rate":"9,1",
+      "description":"Homer becomes union leader and leads a company strike when Mr. Burns takes away the company dental plan."
+   },
+   { 
+      "title":"Cape Feare (1993)",
+      "rate":"9,2",
+      "description":"After being released from prison on parole, Sideshow Bob plots to murder Bart."
+   },
+   { 
+      "title":"Treehouse of Horror V (1994)",
+      "rate":"9,1",
+      "description":"The family's job at Mr. Burns' country estate goes awry when Homer goes mad; Homer's attempt to repair a toaster results in inadvertent time travel; The school staff turn cannibalistic."
+   },
+   { 
+      "title":"King Size Homer (1995)",
+      "rate":"9,0",
+      "description":"Homer intentionally gains more weight in order to qualify for disability and work from home, but soon realizes that being morbidly obese comes with its own problems."
+   },
+   { 
+      "title":"Homer's Enemy (1997)",
+      "rate":"9,3",
+      "description":"Industrious Frank Grimes starts working at the plant and becomes irritated by Homer's laziness; Bart buys a run-down factory for a dollar."
+   },
+   { 
+      "title":"The City of New York vs. Homer Simpson (1997)",
+      "rate":"9,1",
+      "description":"Homer must travel to New York to get his car back, which is illegally parked at World Trade Center Plaza."
+   },
+   { 
+      "title":"The Wizard of Evergreen Terrace (1998)",
+      "rate":"8,2",
+      "description":"Homer's midlife crisis leads to a disastrous attempt at being an inventor."
+   },
+   { 
+      "title":"Mayored to the Mob (1998)",
+      "rate":"8,2",
+      "description":"Homer deals with corruption when he becomes Mayor Quimby's bodyguard."
+   },
+   { 
+      "title":"Behind the Laughter (2000)",
+      "rate":"7,9",
+      "description":"Fans are invited to take a behind-the-scenes look at 'The Simpsons'2, revisiting some of the most memorable experiences the family has been through."
+   }
 ]

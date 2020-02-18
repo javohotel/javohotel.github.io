@@ -47,9 +47,21 @@
 	</header>
 
 	<div id="app">
-	  <div v-for="epi in episodes">
-	  	<h4>{{epi.title}}</h4>
-	  </div>
+		
+		<h2 class="simpsonsFont">The list!</h2>
+
+	  <article v-for="(epi, index) in episodes">
+	  	<div class="img">
+	  		<img :src="epi.img" style="max-width: 140px;" alt="">
+	  	</div>
+	  	<div class="info">
+	  		<h4 class="simpsonsFont">{{epi.title}}</h4>
+	  		<p><small>IMDb Rate: {{epi.rate}}</small></p>
+			<p>{{epi.description}}</p>
+			<script firebaseURL="https://starratingsystem-d1912.firebaseio.com/" :ratingName="ratingname" fullStarImg="https://1.bp.blogspot.com/-SkJnv3SoIYo/WCjmIOjlSoI/AAAAAAAAAD4/Zj3kATWlvBU4i4NOceqE4NKOn-OJtUPBwCLcB/s1600/4.png" emptyStarImg="https://4.bp.blogspot.com/-5ZXWRxL-mjI/WCjl001_sVI/AAAAAAAAADo/exjKyHG7e7Yl1zpmLnDJ1-7F4RNG2Qc3gCLcB/s1600/0.png" hoverStarImg="https://4.bp.blogspot.com/-5hpGJU6MxNc/WCjmLCNZ4WI/AAAAAAAAAD8/4BNKi460d9c9PID7MCPgTIpMt2wJO5W7QCLcB/s1600/5.png" numberOfStars="10" starSize="30" textSize="13" textColor="#ffffff" fontFamily="Arial, Helvetica, sans-serif" align="left" topText="Rating:" bottomText="Average: $average$ / $max$ ($votes$ votes)" thankYouText="Graziaz por votar Sophie" blockingText="Ya votaste po lagi, tu voto es de $userRating$." status="active" async src="js/StarRatingSystem.js"></script>
+	  	</div>
+	  	
+	  </article>
 	</div>
 
 

@@ -41,6 +41,11 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+	color: #fcea36;
+	text-align: center;
+}
+
 header p {
 	font-size: 14px;
 	margin-bottom: 10px;
@@ -49,3 +54,36 @@ header p {
 .simpsonsFont {
 	font-family: 'simpsons';
 }
+
+#app {
+	max-width: 800px;
+	margin: auto;
+}
+
+article {
+	margin-bottom: 30px;
+	display: flex;
+	color: #fff;
+	padding: 30px;
+    background: rgba(0,0,0,0.3);
+}
+
+article .img {
+	width: 25%;
+}
+
+article .info {
+	width: 75%;
+}
+
+article h4 {
+	color: #fcea36;
+	font-size: 16px;
+	margin: 0;
+}
+
+small {
+	font-size: 12px;
+	color: #ccc;
+}
+
